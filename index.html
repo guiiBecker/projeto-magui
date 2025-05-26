@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magui Web - Sistema de Gestão para Confecções</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Magui Web</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#arquitetura">Arquitetura</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Magui Web</h1>
+                <p>Sistema de Gestão para Confecções</p>
+                <a href="#tecnologias" class="cta-button">Conheça as Tecnologias</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="about">
+            <h2>Sobre o Projeto</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>O Magui Web é um sistema de gestão desenvolvido especialmente para confecções, oferecendo funcionalidades completas para gerenciamento de pedidos, produtos, clientes e ordens de produção. O sistema foi projetado para ser intuitivo, eficiente e adaptado às necessidades específicas do setor têxtil.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend Moderno</h3>
+                        <p>React, TypeScript e Tailwind CSS</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Robusto</h3>
+                        <p>FastAPI e PostgreSQL</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="features">
+            <h2>Tecnologias Utilizadas</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fab fa-react"></i>
+                    <h3>Frontend</h3>
+                    <ul class="tech-list">
+                        <li>React + TypeScript</li>
+                        <li>Vite</li>
+                        <li>Tailwind CSS</li>
+                        <li>Shadcn/ui</li>
+                        <li>React Router</li>
+                        <li>React Hook Form</li>
+                        <li>Zod</li>
+                        <li>date-fns</li>
+                        <li>jsPDF</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Backend</h3>
+                    <ul class="tech-list">
+                        <li>FastAPI</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLAlchemy</li>
+                        <li>Pydantic</li>
+                        <li>Alembic</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Infraestrutura</h3>
+                    <ul class="tech-list">
+                        <li>Firewall</li>
+                        <li>Git</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>DevOps</h3>
+                    <ul class="tech-list">
+                        <li>CI/CD</li>
+                        <li>Monitoramento</li>
+                        <li>Deploy Automatizado</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="funcionalidades" class="features">
+            <h2>Funcionalidades Principais</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Gestão de Pedidos</h3>
+                    <ul class="tech-list">
+                        <li>Cadastro de pedidos</li>
+                        <li>Listagem e filtros</li>
+                        <li>Atualização de status</li>
+                        <li>Histórico de pedidos</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-box"></i>
+                    <h3>Gestão de Produtos</h3>
+                    <ul class="tech-list">
+                        <li>Cadastro de produtos</li>
+                        <li>Controle de estoque</li>
+                        <li>Categorização</li>
+                        <li>Preços e especificações</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Gestão de Clientes</h3>
+                    <ul class="tech-list">
+                        <li>Cadastro de clientes</li>
+                        <li>Histórico de pedidos</li>
+                        <li>Informações de contato</li>
+                        <li>Documentação</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Dashboard</h3>
+                    <ul class="tech-list">
+                        <li>Visão geral do negócio</li>
+                        <li>Métricas importantes</li>
+                        <li>Gráficos e estatísticas</li>
+                        <li>Indicadores de performance</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="arquitetura" class="features contact">
+            <h2>Recursos Técnicos</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Performance e Otimização</h3>
+                    <ul class="tech-list">
+                        <li>Lazy loading de componentes</li>
+                        <li>Compressão Gzip</li>
+                        <li>Cache de assets estáticos</li>
+                        <li>Otimização de imagens</li>
+                        <li>Code splitting</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-toolbox"></i>
+                    <h3>Ferramentas e Bibliotecas</h3>
+                    <ul class="tech-list">
+                        <li>Validação de dados com Zod</li>
+                        <li>Geração de PDFs com jsPDF</li>
+                        <li>Manipulação de datas com date-fns</li>
+                        <li>Componentes reutilizáveis com Shadcn/ui</li>
+                        <li>Gerenciamento de estado com React Hook Form</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Infraestrutura e Deploy</h3>
+                    <ul class="tech-list">
+                        <li>Servidor Ubuntu na rede da empresa</li>
+                        <li>Containerização completa com Docker</li>
+                        <li>Isolamento de serviços em containers separados</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Segurança e Redes</h3>
+                    <ul class="tech-list">
+                        <li>Configuração de firewall específica</li>
+                        <li>Acesso a aplicação web via IP</li>
+                        <li>Acesso a aplicação web via resolução de DNS local</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery">
+            <h2>Galeria do Projeto</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/Lista dashboard.jpg" alt="Dashboard do Sistema">
+                    <div class="gallery-caption">
+                        <h3>Dashboard Principal</h3>
+                        <p>Visão geral do sistema com métricas importantes e indicadores de performance</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Lista de pedidos.jpg" alt="Gestão de Pedidos">
+                    <div class="gallery-caption">
+                        <h3>Gestão de Pedidos</h3>
+                        <p>Interface de cadastro e acompanhamento de pedidos com filtros e busca avançada</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Lista ordem de producao.jpg" alt="Ordem de Produção">
+                    <div class="gallery-caption">
+                        <h3>Ordem de Produção</h3>
+                        <p>Controle e acompanhamento das ordens de produção em tempo real</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Lista de produtos.jpg" alt="Gestão de Produtos">
+                    <div class="gallery-caption">
+                        <h3>Gestão de Produtos</h3>
+                        <p>Cadastro e controle de produtos com especificações e categorização</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Lista de clientes.jpg" alt="Gestão de Clientes">
+                    <div class="gallery-caption">
+                        <h3>Gestão de Clientes</h3>
+                        <p>Cadastro e histórico completo de clientes com informações detalhadas</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/lista ordem de producao pdf.jpg" alt="Exportação PDF">
+                    <div class="gallery-caption">
+                        <h3>Exportação em PDF</h3>
+                        <p>Geração de relatórios e ordens de produção em formato PDF</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Magui Web</h3>
+                <p>Sistema de Gestão para Confecções</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/seu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/seu-usuario" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:seu-email@exemplo.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 - Projeto de Portfólio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
