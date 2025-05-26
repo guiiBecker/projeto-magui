@@ -89,4 +89,27 @@ document.querySelectorAll('.gallery-item img').forEach(img => {
         // Abre a imagem em uma nova aba
         window.open(this.src, '_blank');
     });
+});
+
+// Menu sanduíche responsivo
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', () => {
+            console.log('Menu sanduíche clicado!');
+            navLinks.classList.toggle('open');
+            document.body.classList.toggle('menu-open');
+        });
+
+        // Fecha o menu ao clicar em um link (mobile)
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                document.body.classList.remove('menu-open');
+            });
+        });
+    }
 }); 
